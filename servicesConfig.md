@@ -102,8 +102,10 @@ Name: publication
 
 Campos:
 
- - UID
- - Title como H1
- - RichText permitindo múltiplos parágrafos e blank for links
+- UID
+- Title como H1
+- RichText permitindo múltiplos parágrafos e blank for links
 
 Na aba "Documents" será possível adicionar os posts.
+
+stripe listen --forward-to localhost:3000/api/webhooks
